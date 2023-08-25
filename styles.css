@@ -1,0 +1,51 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: "Source Sans 3";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* .hello { */
+/* 	font-size: 150%; */
+/* } */
+
+.hello h1 {
+	font-size: 60px;
+}
+
+.hello h2 {
+	font-size: 40px;
+}
+
+.highlight {
+	color: #0395DE;
+}
+
+h1, h2, p {
+	text-align: center;
+	color: #333333
+}
+
+a {
+	color: #0395DE;
+}
+
+.index-links {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	font-size: 24px;
+}
+
+.project-grid {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
